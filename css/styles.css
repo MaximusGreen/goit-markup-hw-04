@@ -89,6 +89,8 @@ img {
     color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
+    transition-delay: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .page-nav .link:hover {
@@ -114,6 +116,8 @@ img {
     padding-top: 24px;
     padding-bottom: 24px;
     margin-left: 332px;
+    transition-delay: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .page-add .link {
@@ -263,6 +267,8 @@ img {
     border: none;
     border-radius: 4px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    transition-delay: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button:hover, .button:focus {
@@ -319,6 +325,8 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
 .ics3 {
     display: flex;
     gap: 24px;
+    transition-delay: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-s3 {
@@ -371,6 +379,8 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
     letter-spacing: 0.32px;
     position: relative;
     overflow: hidden;
+    transition-delay: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .p-port:hover .overlay {
@@ -378,6 +388,7 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
 }
 
 .overlay {
+    color: #F4F4FD;
     padding: 40px 32px 164px;
     background:#4D5AE5;
     position: absolute;
@@ -435,11 +446,14 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
     border-radius: 50%;
     width: 40px;
     height: 40px;
+    transition-delay: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icft-linc:hover,
 .icft-linc:focus {
     background-color: #31D0AA;
+    color: #F4F4FD;
 }
 
 .icon-ft {
