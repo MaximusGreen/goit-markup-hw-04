@@ -367,15 +367,10 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icst-linc:hover {
+.icst-linc:hover, .icst-linc:focus {
    background-color: #404bbf;
-   color: #F4F4FD;
 }
 
-.icst-linc:focus {
-    background-color: #404bbf;
-    color: #F4F4FD;
-}
 
 .portfolio {
     padding: 120px 0 120px 0;
@@ -499,14 +494,8 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
     justify-content: center;
 }
 
-.icft-linc:hover {
+.icft-linc:hover, .icft-linc:focus {
     background-color: #31d0aa;
-    color: #F4F4FD;
-}
-
-.icft-linc:focus {
-    background-color: #31d0aa;
-    color: #F4F4FD;
 }
 
 .foot-socli {
