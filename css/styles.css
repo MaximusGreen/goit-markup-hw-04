@@ -4,14 +4,6 @@
     box-sizing: border-box;
 }
 
-.hedr {
-    height: 72px;
-    border-bottom: 1px solid #e7e9fc;
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-        0px 1px 1px rgba(46, 47, 66, 0.16),
-        0px 1px 6px rgba(46, 47, 66, 0.08);
-}
-
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -59,6 +51,11 @@ img {
 
 .page-head {
     display: flex;
+    height: 72px;
+    border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .container {
@@ -182,16 +179,16 @@ img {
     gap: 48px;
     align-items: center;
     flex-direction: column;
-    background-image: linear-gradient(to bottom,
-    rgba(46, 47, 66, 0.7),
-    rgba(46, 47, 66, 0.7)), url(/images/hero-fon.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #2E2F42;
-    height: 600px;
-    padding: 188px 0;
-    max-width: 1440px;
-    background-position: center;
+        background-image: linear-gradient(to bottom,
+                    rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)), url(/images/hero-fon.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: #2E2F42;
+            height: 600px;
+            padding: 188px 0;
+            max-width: 1440px;
+            background-position: center;
 }
 
 .start-con .page-title {
@@ -232,8 +229,6 @@ img {
 }
 
 .icss svg {
-    width: 64px;
-    height: 64px;
     flex-shrink: 0;
     margin: 24px 100px;
 }
@@ -349,8 +344,6 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
 }
 
 .icon-st {
-    width: 16px;
-    height: 16px;
     margin: 12px;
 }
 
@@ -361,8 +354,8 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
    height: 40px;
 }
 
-.ics3-linc:hover,
-.ics3-linc:focus {
+.icst-linc:hover,
+.icst-linc:focus {
    background-color: #31D0AA;
 }
 
@@ -497,8 +490,6 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
 }
 
 .icon-ft {
-    width: 24;
-    height: 24;
     margin: 8px;
     fill: #f4f4fd;
 }
