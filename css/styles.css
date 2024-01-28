@@ -62,7 +62,7 @@ img {
 }
 
 .container {
-    width: 1158px;
+    max-width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -184,8 +184,8 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #2E2F42;
-    max-width: 1440px;
     background-position: center;
+        max-width: 1440px;
 }
 
 .start-con {
@@ -211,7 +211,7 @@ img {
     display: flex;
     gap: 24px;
     align-items: center;
-        justify-content: center;
+    justify-content: center;
 
 }
 
@@ -367,9 +367,14 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icst-linc:hover,
-.icst-linc:focus {
+.icst-linc:hover {
    background-color: #404bbf;
+   color: #F4F4FD;
+}
+
+.icst-linc:focus {
+    background-color: #404bbf;
+    color: #F4F4FD;
 }
 
 .portfolio {
@@ -494,7 +499,11 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
     justify-content: center;
 }
 
-.icft-linc:hover,
+.icft-linc:hover {
+    background-color: #31d0aa;
+    color: #F4F4FD;
+}
+
 .icft-linc:focus {
     background-color: #31d0aa;
     color: #F4F4FD;
