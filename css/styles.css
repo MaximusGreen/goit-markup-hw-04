@@ -369,7 +369,7 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
 
 .icst-linc:hover,
 .icst-linc:focus {
-   background-color: #31D0AA;
+   background-color: #404bbf;
 }
 
 .portfolio {
@@ -477,7 +477,7 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
 
 .foot-cl {
     display: flex;
-    align-items: baseline,
+    align-items: baseline;
 }
 
 .icft-linc {
