@@ -204,6 +204,9 @@ img {
 .conteiner-ul {
     display: flex;
     gap: 24px;
+    align-items: center;
+        justify-content: center;
+
 }
 
 .lii {
