@@ -217,7 +217,7 @@ img {
     width: calc((100% - 72px) / 4);
 }
 
-.ics2 {
+.icss {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -231,7 +231,7 @@ img {
     margin-bottom: 8px;
 }
 
-.ics2 svg {
+.icss svg {
     width: 64px;
     height: 64px;
     flex-shrink: 0;
@@ -342,19 +342,19 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.ics3 {
+.icst {
     display: flex;
     gap: 24px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-s3 {
+.icon-st {
     width: 16px;
     height: 16px;
     margin: 12px;
 }
 
-.ics3-linc {
+.icst-linc {
    background-color: #4D5AE5;
    border-radius: 50%;
    width: 40px;
