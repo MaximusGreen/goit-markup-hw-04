@@ -348,6 +348,7 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
 }
 
 .icst {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: flex;
     gap: 24px;
 }
@@ -368,7 +369,7 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icst .icst-linc:hover, .icst .icst-linc:focus {
+.icst-linc:hover, .icst-linc:focus {
    background-color: #404bbf;
 }
 
@@ -495,7 +496,7 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
     justify-content: center;
 }
 
-.icft .icft-linc:hover, .icft .icft-linc:focus {
+.icft-linc:hover, .icft-linc:focus {
     background-color: #31d0aa;
 }
 
@@ -525,4 +526,5 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
     display: flex;
     width: 40px;
     height: 40px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
