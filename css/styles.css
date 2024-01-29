@@ -192,16 +192,13 @@ img {
 }
 
 .start-con {
-    display: flex;
-    gap: 48px;
-    align-items: center;
-    flex-direction: column;
     padding: 188px 0;
 }
 
 .start-con .page-title {
     height: 120px;
     max-width: 496px;
+    margin: 0 auto 48px;
 }
 
 .zagolovok {
@@ -213,7 +210,6 @@ img {
     gap: 24px;
     align-items: center;
     justify-content: center;
-
 }
 
 .lii {
@@ -272,6 +268,7 @@ img {
 
 
 .button {
+    margin: 0 auto;
     color: #FFF;
     background: #4D5AE5;
     background-color: #4d5ae5;
