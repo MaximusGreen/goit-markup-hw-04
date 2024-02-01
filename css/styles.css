@@ -175,8 +175,8 @@ img {
 
 .prg, .portfolio-prg {
     font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.32px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
 }
 
 .start {
@@ -245,7 +245,7 @@ img {
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
-    letter-spacing: 1.12px;
+    letter-spacing: 0.02em;
 }
 
 .section-title {
@@ -255,7 +255,7 @@ img {
     font-weight: 700;
     text-transform: capitalize;
     line-height: 1.11;
-    letter-spacing: 0.72px;
+    letter-spacing: 0.02em;
 }
 
 .title {
@@ -263,7 +263,7 @@ img {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.02em;
 }
 
 
@@ -277,7 +277,7 @@ img {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.64px;
+    letter-spacing: 0.04em;
     height: 56px;
     width: 169px;
     display: block;
@@ -445,7 +445,7 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
     font-weight: 700;
     font-size: 18px;
     line-height: 1.16;
-    letter-spacing: 0.54px;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
     color: #4d5ae5;
@@ -455,7 +455,7 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
 
 .foot-text {
     color: #F4F4FD;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.03em;
     line-height: 1.5;
     max-width: 264px;
 }
@@ -500,8 +500,8 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
 
 .foot-soc p {
     font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.32px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
     color: #FFF;
     margin-bottom: 16px;
 }
